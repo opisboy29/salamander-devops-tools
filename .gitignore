@@ -1,0 +1,62 @@
+# Environment variables
+.env
+
+# Backup files
+**/backups/*
+**/backup/*
+**/dump/*
+**/dumps/*
+
+# Log files
+**/logs/*
+**/log/*
+*.log
+
+# Temporary files
+**/temp/*
+**/tmp/*
+*.tmp
+*.dump
+*.sql
+*.gz
+*.tar
+*.zip
+*.bson
+
+# Credentials
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*_rsa
+*_dsa
+*_ed25519
+*_ecdsa
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+*.bak
+*.orig
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Rclone configuration
+.rclone.conf
+rclone.conf
+
+# Keep example files and scripts
+!*.example
+!*.sh
+!*.md 
