@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Load environment variables from .env file
+# Load environment variables
 if [ -f .env ]; then
     set -a
     source .env
@@ -431,4 +431,4 @@ upload_backup || {
     exit 1
 }
 
-echo "✅ MongoDB backup process completed successfully on $(date)" 
+echo "✅ MongoDB backup process completed successfully on $(date)"
